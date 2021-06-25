@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body onLoad="init()">
+<div 
+ style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
+ unselectable="on"
+ onselectstart="return false;" 
+ onmousedown="return false;">
+
+ 	<canvas id="myCanvas" width="408" height="650" style="border:1px solid #000000;" z-index:2;> </canvas>
+	
+
+<button id="up" onclick="moveup()">UP</button>
+<button id="down" onclick="movedown()">DOWN</button>
+<button id="left" onclick="moveleft()">LEFT</button>
+<button id="right" onclick="moveright()">RIGHT</button>
+</div>
+	<script src="script.js"></script>
+</body>
